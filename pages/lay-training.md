@@ -1,7 +1,8 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Lay Training
+sort: 1
+thumbnail: uploads/images/bible-close-up_MJUN_BDd-150x150.jpg
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
