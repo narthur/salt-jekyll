@@ -1,0 +1,14 @@
+<div class="scrollspy">
+  <div class="s-styleguide-aside hidden-xs hidden-sm">
+    <ul class="nav">
+      {% for component in site.styleguide %}
+        {% assign component_title = component.slug | replace: "-", " " | capitalize %}
+        <li>
+          <a href="#{{ component.slug }}">
+            {{ component_title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

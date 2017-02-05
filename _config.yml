@@ -33,3 +33,21 @@ exclude:
   - Gemfile
   - Gemfile.lock
 include: [ _pages ]
+
+# Sass settings
+sass:
+  sass_dir: css
+
+# Styleguide settings
+collections:
+  styleguide:
+    output: true
+
+# Sensible defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "styleguide"
+    values:
+      layout: "default"
