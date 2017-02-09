@@ -1,4 +1,4 @@
-# salt-jekyll
+# [salt-jekyll](http://nathanarthur.com/salt-jekyll)
 
 [AMPed](https://www.ampproject.org/) and [minified](https://medium.com/design-open/becoming-a-jekyll-god-ef722e93f771#.4zuacmmv8).
 
