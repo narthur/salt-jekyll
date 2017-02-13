@@ -11,7 +11,7 @@ bundle update
 
 ## Serve
 
-`bundle exec jekyll serve`
+`bundle exec jekyll serve --config "_config.yml,_dev.yml"`
 
 ## Theme
 
