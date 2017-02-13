@@ -4,7 +4,7 @@ title: Contact Us
 permalink: /contact-us/
 ---
 
-<amp-img src="/_assets/CO Visitors.jpg" width="960" height="960" layout="responsive" alt="an image"></amp-img>
+<amp-img src="{{ site.url }}/_assets/CO Visitors.jpg" width="960" height="960" layout="responsive" alt="an image"></amp-img>
 
 We would love to hear from you!
 
