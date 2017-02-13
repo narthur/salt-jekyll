@@ -2,6 +2,7 @@
 layout: page
 title: Multimedia Production
 permalink: /multimedia-production/
+amp-plugins: [ youtube ]
 ---
 
 One of the main functions on our campus is the SALTCAM media studio. The staff
@@ -43,12 +44,8 @@ DVDs.
 Watch the videos below to get a taste of the types of video materials the
 SALTCAM studio produces!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6WxD_EJUk7I" frameborder="0" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7ll5kqnmJ4Q" frameborder="0" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VFyIKRmqj6U" frameborder="0" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kVE3eslP1zo" frameborder="0" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bfWx-UkTnAE" frameborder="0" allowfullscreen></iframe>
+<amp-youtube width="480" height="270" layout="responsive" data-videoid="6WxD_EJUk7I"></amp-youtube>
+<amp-youtube width="480" height="270" layout="responsive" data-videoid="7ll5kqnmJ4Q"></amp-youtube>
+<amp-youtube width="480" height="270" layout="responsive" data-videoid="VFyIKRmqj6U"></amp-youtube>
+<amp-youtube width="480" height="270" layout="responsive" data-videoid="kVE3eslP1zo"></amp-youtube>
+<amp-youtube width="480" height="270" layout="responsive" data-videoid="bfWx-UkTnAE"></amp-youtube>

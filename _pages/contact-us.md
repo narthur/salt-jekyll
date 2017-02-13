@@ -2,9 +2,10 @@
 layout: page
 title: Contact Us
 permalink: /contact-us/
+amp-plugins: [ iframe ]
 ---
 
-<amp-img src="{{ site.url }}/_assets/CO Visitors.jpg" width="960" height="960" layout="responsive" alt="an image"></amp-img>
+{% include image.html name="CO Visitors.jpg" width="960" height="960" %}
 
 We would love to hear from you!
 

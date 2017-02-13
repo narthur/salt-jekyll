@@ -23,5 +23,10 @@
   <!-- See https://developers.google.com/analytics/devguides/collection/amp-analytics/ -->
 
   <script async src="https://cdn.ampproject.org/v0.js"></script>
-  <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+  {% if page.amp-plugins contains "iframe" %}
+    <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+  {% endif %}
+  {% if page.amp-plugins contains "youtube" %}
+    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+  {% endif %}
 </head>

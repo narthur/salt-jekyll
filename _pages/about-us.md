@@ -4,6 +4,8 @@ title: About Us
 permalink: /about-us/
 ---
 
+{% include image.html name="AB Pastor Heng.jpg" width="960" height="640" %}
+
 Tim Maddocks worked as a teacher in the Seventh-day Adventist school system for
 several years. He and Wendy were in Western Samoa for three years (1985–1987),
 and for two years he taught in Fiji (1988–1989). Wendy was a faithful support as
