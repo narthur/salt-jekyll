@@ -23,3 +23,4 @@ All theme files not explicitly overridden are pulled from the Jekyll theme
 - Set up AMP-compliant GA install
 - Embed YouTube videos in an AMP-compliant way
 - Add automated static HTML testing
+- Add support for child pages
