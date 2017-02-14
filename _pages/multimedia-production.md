@@ -2,8 +2,9 @@
 layout: page
 title: Multimedia Production
 permalink: /multimedia-production/
-amp-plugins: [ youtube ]
 ---
+
+{% include image.html name="MU Actors.jpg" width="960" height="720" %}
 
 One of the main functions on our campus is the SALTCAM media studio. The staff
 work to produce Bible studies on video, healthy cooking shows, and videos
@@ -41,11 +42,5 @@ all ages. The staff continually work to make the materials interesting and
 simple for people to understand. Our videos are easily accessible on YouTube and
 DVDs.
 
-Watch the videos below to get a taste of the types of video materials the
+[Watch the videos in our portfolio]({{ site.url }}{{ site.baseurl }}/multimedia-production/portfolio/) to get a taste of the types of video materials the
 SALTCAM studio produces!
-
-<amp-youtube width="480" height="270" layout="responsive" data-videoid="6WxD_EJUk7I"></amp-youtube>
-<amp-youtube width="480" height="270" layout="responsive" data-videoid="7ll5kqnmJ4Q"></amp-youtube>
-<amp-youtube width="480" height="270" layout="responsive" data-videoid="VFyIKRmqj6U"></amp-youtube>
-<amp-youtube width="480" height="270" layout="responsive" data-videoid="kVE3eslP1zo"></amp-youtube>
-<amp-youtube width="480" height="270" layout="responsive" data-videoid="bfWx-UkTnAE"></amp-youtube>

@@ -23,3 +23,21 @@ end
 {% include component/index.html %}
 {% endcapture %}
 {{ includeGuts | replace: '    ', ''}}
+
+## Atoms
+
+## Molecules
+
+### Tabs
+
+<ul class="tabs">
+  <li class="active"><a href="#">Tab 1</a></li>
+  <li><a href="#">Tab 2</a></li>
+  <li><a href="#">Tab 3</a></li>
+</ul>
+
+## Organisms
+
+## Templates
+
+## Pages

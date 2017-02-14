@@ -1,0 +1,23 @@
+/* Tabs */
+
+.tabs {
+  border-bottom: 1px solid grey;
+  margin-left: 0;
+  padding-left: .5rem;
+  li {
+    display: inline-block;
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-radius: 5px 5px 0 0;
+    background-color: white;
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+  li.active {
+    background-color: grey;
+    a {
+      color: white;
+    }
+  }
+}
