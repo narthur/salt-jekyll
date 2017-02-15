@@ -16,14 +16,22 @@ layout: default
     {% endfor %}
 
     <h1 class="post-title">{{ section.title | escape }}</h1>
+
+    {% capture subpages %}
+    {% for my_page in site.pages %}
+      {% if my_page.title and my_page.hidden != true and my_page.permalink contains section.permalink and my_page.permalink != section.permalink %}
+      <li{% if my_page.permalink == page.permalink %} class='active'{% endif %}><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+      {% endif %}
+    {% endfor %}
+    {% endcapture %}
+    {% assign subpages = subpages|strip %}
+    {% if subpages != '' %}
     <ul class="sub-pages tabs">
-      <li{% if page.permalink == section.permalink %} class='active'{% endif %}><a class="page-link" href="{{ section.url | relative_url }}">About</a></li>
-      {% for my_page in site.pages %}
-        {% if my_page.title and my_page.hidden != true and my_page.permalink contains section.permalink and my_page.permalink != section.permalink %}
-        <li{% if my_page.permalink == page.permalink %} class='active'{% endif %}><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
-        {% endif %}
-      {% endfor %}
+    <li{% if page.permalink == section.permalink %} class='active'{% endif %}><a class="page-link" href="{{ section.url | relative_url }}">About</a></li>
+    {{ subpages }}
     </ul>
+    {% endif %}
+
     {% if page.author %}<p>Author: {{ page.author | escape }}</p>{% endif %}
   </header>
 
