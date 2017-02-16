@@ -1,7 +1,7 @@
 ---
 layout: gallery
-title: Gallery
-permalink: /lay-training/gallery/
+title: KMET Gallery
+permalink: /lay-training/kmet-gallery/
 amp-plugins: [ carousel ]
 ---
 
