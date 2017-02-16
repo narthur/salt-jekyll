@@ -2,7 +2,6 @@
 layout: page
 title: Style Guide
 permalink: /style-guide/
-hidden: true
 ---
 
 Hello, world

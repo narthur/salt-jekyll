@@ -2,6 +2,8 @@
 layout: page
 title: Multimedia Production
 permalink: /multimedia-production/
+menus: [ main ]
+sort: 8
 ---
 
 {% include image.html name="MU Actors.jpg" width="960" height="720" %}

@@ -2,6 +2,8 @@
 layout: page
 title: Lay Training
 permalink: /lay-training/
+menus: [ main ]
+sort: 5
 ---
 
 Studies have shown the therapeutic benefits of the horse to the human. Horses
@@ -24,7 +26,7 @@ We have put together three 12-week courses that will run during the school
 terms, and during the holidays we plan to have horsemanship/riding camps. We
 hope to work with at least 50 of our young people each year.
 
-Hooftrek currently has a small piece of the WPY property where we have set up a 
+Hooftrek currently has a small piece of the WPY property where we have set up a
 couple of paddocks, riding areas, and a small stable. It is exciting to
 contemplate the possibilities of this program and all the people that will
 benefit from it!

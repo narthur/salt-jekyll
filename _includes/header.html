@@ -14,9 +14,9 @@
       </span>
 
       <div class="trigger">
-        {% for my_page in site.pages %}
-          {% include permalink-parts.html permalink=my_page.permalink %}
-          {% if my_page.title and my_page.hidden != true and permalink_parts.size == 1 %}
+        {% assign my_pages = site.pages | sort: 'sort' %}
+        {% for my_page in my_pages %}
+          {% if my_page.title and my_page.menus contains 'main' %}
           <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
           {% endif %}
         {% endfor %}

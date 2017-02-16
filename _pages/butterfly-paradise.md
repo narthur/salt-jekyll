@@ -3,6 +3,8 @@ layout: page
 title: Butterfly Paradise
 permalink: /butterfly-paradise/
 author: Tim Maddocks
+menus: [ main ]
+sort: 9
 ---
 
 Dream with me . . .

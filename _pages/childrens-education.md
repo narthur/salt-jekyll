@@ -2,6 +2,8 @@
 layout: page
 title: Children's Education
 permalink: /childrens-education/
+menus: [ main ]
+sort: 7
 ---
 
 > “Educating for Eternity” ~ KAS Motto

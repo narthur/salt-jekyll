@@ -3,6 +3,8 @@ layout: page
 title: Contact Us
 permalink: /contact-us/
 amp-plugins: [ iframe ]
+menus: [ secondary ]
+sort: 3
 ---
 
 {% include image.html name="CO Visitors.jpg" width="960" height="960" %}

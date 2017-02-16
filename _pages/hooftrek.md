@@ -2,6 +2,8 @@
 layout: page
 title: Hooftrek
 permalink: /hooftrek/
+menus: [ main ]
+sort: 10
 ---
 
 Studies have shown the therapeutic benefits of the horse to the human. Horses

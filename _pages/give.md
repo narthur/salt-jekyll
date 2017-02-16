@@ -3,6 +3,8 @@ layout: page
 title: Give
 permalink: /give/
 amp-plugins: [ accordion ]
+menus: [ main ]
+sort: 4
 ---
 
 If you have opened this page, the Holy Spirit must be tugging at your heart

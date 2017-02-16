@@ -2,6 +2,7 @@
 layout: page
 title: About Us
 permalink: /about-us/
+menus: [ secondary ]
 ---
 
 {% include image.html name="AB Pastor Heng.jpg" width="960" height="640" %}
