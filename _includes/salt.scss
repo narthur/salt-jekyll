@@ -1,3 +1,10 @@
+$dark-gray: #0F0F0F;
+$light-blue: #4094CA;
+$lime-green: #4FBD0F;
+$turquoise-blue: #0B8F64;
+$yellow: #A6CE10;
+
 @import
+  "component/atom",
   "component/molecule"
 ;

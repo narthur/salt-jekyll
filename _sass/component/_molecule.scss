@@ -1,23 +1,21 @@
 /* Tabs */
 
 .tabs {
-  border-bottom: 1px solid grey;
   margin-left: 0;
-  padding-left: .5rem;
+  padding-right: 1rem;
+  a {
+    color: white;
+    padding: 1rem;
+    &:hover {
+      text-decoration: none;
+    }
+  }
   li {
     display: inline-block;
-    border-top: 1px solid grey;
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
-    border-radius: 5px 5px 0 0;
-    background-color: white;
-    padding-left: .5rem;
-    padding-right: .5rem;
+    border-radius: 4px;
+    background-color: $light-blue;
   }
-  li.active {
-    background-color: grey;
-    a {
-      color: white;
-    }
+  li.active, li:hover {
+    background-color: $turquoise-blue;
   }
 }

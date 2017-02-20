@@ -4,38 +4,30 @@ title: Style Guide
 permalink: /style-guide/
 ---
 
-Hello, world
-
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
-
-# Resources
-
-- [Style Guide Boilerplate](http://bjankord.github.io/Style-Guide-Boilerplate/)
-
-# The Style Guide
-
-{% capture includeGuts %}
-{% include component/index.html %}
-{% endcapture %}
-{{ includeGuts | replace: '    ', ''}}
+{% assign atoms     = site.style_guide | where_exp:"component", "component.layer == 'atom'" %}
+{% assign molecules = site.style_guide | where_exp:"component", "component.layer == 'molecule'" %}
+{% assign organisms = site.style_guide | where_exp:"component", "component.layer == 'organism'" %}
 
 ## Atoms
 
+{% for component in atoms %}
+  <h3>{{ component.name }}</h3>
+  {{ component.content }}
+{% endfor %}
+
 ## Molecules
 
-### Tabs
-
-<ul class="tabs">
-  <li class="active"><a href="#">Tab 1</a></li>
-  <li><a href="#">Tab 2</a></li>
-  <li><a href="#">Tab 3</a></li>
-</ul>
+{% for component in molecules %}
+  <h3>{{ component.name }}</h3>
+  {{ component.content }}
+{% endfor %}
 
 ## Organisms
+
+{% for component in organisms %}
+  <h3>{{ component.name }}</h3>
+  {{ component.content }}
+{% endfor %}
 
 ## Templates
 
