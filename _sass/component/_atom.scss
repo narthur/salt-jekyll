@@ -1,0 +1,26 @@
+/* Colors */
+
+.colors {
+  font-family: monospace;
+  div {
+    margin-bottom: 1rem;
+    padding: 5rem 1rem .5rem;
+    //box-shadow: 0 0 2rem $
+  }
+  span {
+    color: grey;
+    mix-blend-mode: difference;
+  }
+  .dark-gray { background-color: $dark-gray; }
+  .light-blue { background-color: $light-blue; }
+  .lime-green { background-color: $lime-green; }
+  .turquoise-blue { background-color: $turquoise-blue; }
+  .yellow { background-color: $yellow; }
+  .white { background-color: $white; }
+  .text-color { background-color: $text-color; }
+  .text-color-dimlight { background-color: $text-color-dimlight }
+  .link-color { background-color: $link-color; }
+  .link-active-color { background-color: $link-active-color; }
+  .background-color { background-color: $background-color; }
+  .background-color-dimlight { background-color: $background-color-dimlight; }
+}

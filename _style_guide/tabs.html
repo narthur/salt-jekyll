@@ -1,0 +1,13 @@
+---
+name: 'Tabs'
+layer: 'molecule'
+---
+
+{% assign sub_pages = site.pages | where_exp: "item", "item.title" | sample: 5 %}
+{% include component/molecule/tabs.html section=page sub_pages=sub_pages %}
+
+{% highlight html %}
+{% raw %}
+{% include component/molecule/tabs.html section=section sub_pages=my_pages %}
+{% endraw %}
+{% endhighlight %}

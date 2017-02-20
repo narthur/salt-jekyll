@@ -1,0 +1,15 @@
+/* Header */
+
+.site-header {
+  background-color: $background-color-dimlight;
+  .site-title, .page-link {
+    color: $text-color-dimlight;
+  }
+}
+
+/* Footer */
+
+.site-footer {
+  background-color: $background-color-dimlight;
+  color: $text-color-dimlight;
+}

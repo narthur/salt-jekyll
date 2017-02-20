@@ -1,0 +1,8 @@
+{% if include.sub_pages.size > 0 %}
+<ul class="tabs">
+<li{% if page.permalink == include.section.permalink %} class='active'{% endif %}><a href="{{ include.section.url | relative_url }}">About</a></li>
+{% for my_page in include.sub_pages %}
+  <li{% if my_page.permalink == page.permalink %} class='active'{% endif %}><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+{% endfor %}
+</ul>
+{% endif %}
