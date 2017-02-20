@@ -3,19 +3,22 @@
 .tabs {
   margin-left: 0;
   padding-right: 1rem;
-  a {
-    color: white;
-    padding: 1rem;
-    &:hover {
-      text-decoration: none;
-    }
-  }
   li {
+    margin-right: .25rem;
+    margin-bottom: .5rem;
     display: inline-block;
     border-radius: 4px;
     background-color: $light-blue;
   }
   li.active, li:hover {
     background-color: $turquoise-blue;
+  }
+  a {
+    color: white;
+    padding: .5rem 1rem;
+    display: block;
+    &:hover {
+      text-decoration: none;
+    }
   }
 }

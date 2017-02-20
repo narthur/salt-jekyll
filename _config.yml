@@ -25,6 +25,9 @@ twitter_username: jekyllrb
 github_username:  jekyll
 repository: narthur/salt-jekyll
 
+collections:
+  - style_guide
+
 # Build settings
 markdown: kramdown
 theme: minima
@@ -37,6 +40,3 @@ include: [ _pages, _assets ]
 sass:
   sass_dir: _sass
   style: compressed
-
-collections:
-  - style_guide

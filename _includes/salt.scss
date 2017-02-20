@@ -1,10 +1,25 @@
+/* WARNING: Don't use these colors directly. */
+
 $dark-gray: #0F0F0F;
 $light-blue: #4094CA;
 $lime-green: #4FBD0F;
 $turquoise-blue: #0B8F64;
 $yellow: #A6CE10;
+$white: #fdfdfd;
+
+/* Use these insead! =) */
+
+$text-color: $dark-gray;
+$text-color-dimlight: $white;
+$link-color: $light-blue;
+$link-active-color: $turquoise-blue;
+$background-color: $white;
+$background-color-dimlight: $dark-gray;
 
 @import
+  "utilities",
+  "layout",
   "component/atom",
-  "component/molecule"
+  "component/molecule",
+  "component/organism"
 ;
