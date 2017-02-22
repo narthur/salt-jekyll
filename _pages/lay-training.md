@@ -4,6 +4,7 @@ title: Lay Training
 permalink: /lay-training/
 menus: [ main ]
 sort: 5
+thumbnail: thumbnails/Lay Training 1.jpg
 ---
 
 Studies have shown the therapeutic benefits of the horse to the human. Horses

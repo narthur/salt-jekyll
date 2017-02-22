@@ -4,6 +4,7 @@ title: Multimedia Production
 permalink: /multimedia-production/
 menus: [ main ]
 sort: 8
+thumbnail: thumbnails/Media.JPG
 ---
 
 {% include image.html name="MU Actors.jpg" width="960" height="720" %}

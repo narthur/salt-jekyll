@@ -4,6 +4,7 @@ title: Orphans
 permalink: /orphans/
 menus: [ main ]
 sort: 6
+thumbnail: thumbnails/Orphans 1.jpg
 ---
 
 Wat Preah Yesu Children’s Home, opened in March 2003, is caring for orphaned and

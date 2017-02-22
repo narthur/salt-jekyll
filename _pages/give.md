@@ -5,6 +5,7 @@ permalink: /give/
 amp-plugins: [ accordion ]
 menus: [ main ]
 sort: 4
+thumbnail: thumbnails/Butterfly 1.jpg
 ---
 
 If you have opened this page, the Holy Spirit must be tugging at your heart

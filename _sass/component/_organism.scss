@@ -2,8 +2,24 @@
 
 .site-header {
   background-color: $background-color-dimlight;
+  text-align: center;
+  .site-title {
+    display: block;
+    width: 182px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .site-title, .page-link {
     color: $text-color-dimlight;
+  }
+  .page-link {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    background-size: cover;
+    background-position: center;
+    vertical-align: top;
   }
 }
 

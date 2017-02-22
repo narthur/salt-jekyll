@@ -5,6 +5,7 @@ permalink: /butterfly-paradise/
 author: Tim Maddocks
 menus: [ main ]
 sort: 9
+thumbnail: thumbnails/butterfly 2.jpg
 ---
 
 Dream with me . . .

@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
+    <a class="site-title" href="{{ "/" | relative_url}}">{% include component/atom/logo.html %}</a>
 
     <nav class="site-nav">
       <span class="menu-icon">
@@ -16,7 +16,7 @@
       <div class="trigger">
         {% assign my_pages = site.pages | where_exp: "item", "item.title" | where_exp: "item", "item.menus contains 'main'" | sort: 'sort' %}
         {% for my_page in my_pages %}
-          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+          <a class="page-link {{ my_page.title | slugify }}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
         {% endfor %}
       </div>
     </nav>

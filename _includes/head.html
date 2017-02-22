@@ -14,6 +14,10 @@
     {% capture include_to_scssify %}
       {% include minima.scss %}
       {% include salt.scss %}
+      {% assign my_pages = site.pages | where_exp: "item", "item.title" | where_exp: "item", "item.menus contains 'main'" | sort: 'sort' %}
+      {% for my_page in my_pages %}
+        .{{ my_page.title | slugify }} { background-image:url("{{ site.url }}{{ site.baseurl }}/_assets/{{ my_page.thumbnail }}") }
+      {% endfor %}
     {% endcapture %}
     {{ include_to_scssify | scssify }}
   </style>
@@ -24,16 +28,5 @@
   <!-- See https://developers.google.com/analytics/devguides/collection/amp-analytics/ -->
 
   <script async src="https://cdn.ampproject.org/v0.js"></script>
-  {% if page.amp-plugins contains "iframe" %}
-    <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
-  {% endif %}
-  {% if page.amp-plugins contains "youtube" %}
-    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
-  {% endif %}
-  {% if page.amp-plugins contains "accordion" %}
-    <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
-  {% endif %}
-  {% if page.amp-plugins contains "carousel" %}
-    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
-  {% endif %}
+  {% include amp-plugins.html plugins=page.amp-plugins %}
 </head>

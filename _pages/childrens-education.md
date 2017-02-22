@@ -4,6 +4,7 @@ title: Children's Education
 permalink: /childrens-education/
 menus: [ main ]
 sort: 7
+thumbnail: thumbnails/Education 1.JPG
 ---
 
 > “Educating for Eternity” ~ KAS Motto

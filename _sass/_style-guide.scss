@@ -1,0 +1,9 @@
+.style-guide .post-content > h2:after {
+  content: "";
+  position: relative;
+  border-bottom: 2px dotted #0F0F0F;
+  width: 1000%;
+  left: -500%;
+  display: block;
+  top: -1.75em;
+}
