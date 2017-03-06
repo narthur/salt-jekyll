@@ -14,10 +14,6 @@
     {% capture include_to_scssify %}
       {% include minima.scss %}
       {% include salt.scss %}
-      {% assign my_pages = site.pages | where_exp: "item", "item.title" | where_exp: "item", "item.menus contains 'main'" | sort: 'sort' %}
-      {% for my_page in my_pages %}
-        .{{ my_page.title | slugify }} { background-image:url("{{ site.url }}{{ site.baseurl }}/_assets/{{ my_page.thumbnail }}") }
-      {% endfor %}
     {% endcapture %}
     {{ include_to_scssify | scssify }}
   </style>

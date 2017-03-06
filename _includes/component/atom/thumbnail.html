@@ -1,1 +1,3 @@
-<amp-img class='thumbnail' src="{{ include.src }}" width="100" height="100"></amp-img>
+<div class="thumbnail" style="background-image:url('{{ site.url }}{{ site.baseurl }}/_assets/{{ include.name }}')">
+  {% if include.caption %}<span>{{ include.caption }}</span>{% endif %}
+</div>

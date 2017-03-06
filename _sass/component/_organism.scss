@@ -3,6 +3,7 @@
 .site-header {
   background-color: $background-color-dimlight;
   text-align: center;
+  margin-bottom: 2rem;
   .site-title {
     display: block;
     width: 182px;
@@ -13,13 +14,12 @@
   .site-title, .page-link {
     color: $text-color-dimlight;
   }
+  .trigger {
+    display: flex;
+    margin-bottom: -2rem;
+  }
   .page-link {
-    display: inline-block;
-    width: 5rem;
-    height: 5rem;
-    background-size: cover;
-    background-position: center;
-    vertical-align: top;
+    flex: 1 1 auto;
   }
 }
 

@@ -1,7 +1,11 @@
 /* Sticky Footer */
 
 body {
-  background-color: $background-color-dimlight;
+  background-color: $background-color;
+}
+
+.site-nav {
+  float: none;
 }
 
 .page-content {

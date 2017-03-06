@@ -30,3 +30,22 @@
 .logo {
   max-width: 182px;
 }
+
+/* Thumbnail */
+
+.thumbnail {
+  position: relative;
+  text-align: left;
+  padding-bottom: 100%;
+  background-size: cover;
+  background-position: 50%;
+  span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: $text-color-dimlight;
+    background-color: rgba( $background-color-dimlight, .7 );
+    padding: 5%;
+  }
+}
