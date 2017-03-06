@@ -8,10 +8,10 @@
     margin-bottom: .5rem;
     display: inline-block;
     border-radius: 4px;
-    background-color: $light-blue;
+    background-color: $link-color;
   }
   li.active, li:hover {
-    background-color: $turquoise-blue;
+    background-color: $link-active-color;
   }
   a {
     color: white;
@@ -20,5 +20,23 @@
     &:hover {
       text-decoration: none;
     }
+  }
+}
+
+/* Accordion */
+
+amp-accordion {
+  .-amp-accordion-header {
+    background-color: $link-color;
+    color: $text-color-dimlight;
+    padding-left: .5rem;
+    font-size: 1.5rem;
+  }
+  section[expanded] .-amp-accordion-header {
+    background-color: $link-active-color;
+  }
+  .-amp-accordion-content {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }

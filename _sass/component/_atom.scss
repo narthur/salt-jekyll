@@ -25,6 +25,18 @@
   .background-color-dimlight { background-color: $background-color-dimlight; }
 }
 
+/* Text */
+
+a {
+  &, &:visited {
+    color: $link-color;
+  }
+  &:hover, &:active, &:focus {
+    color: $link-active-color;
+    text-decoration: none;
+  }
+}
+
 /* Logo */
 
 .logo {

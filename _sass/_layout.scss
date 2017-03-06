@@ -1,13 +1,13 @@
 /* Sticky Footer */
 
+html {
+  background-color: $background-color-dimlight;
+}
+
 body {
   background-color: $background-color;
 }
 
 .site-nav {
   float: none;
-}
-
-.page-content {
-  background-color: $background-color;
 }
