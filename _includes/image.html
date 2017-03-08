@@ -2,7 +2,7 @@
   src="{{ site.url }}{{ site.baseurl }}/_assets/{{ include.name }}"
   width="{{ include.width }}"
   height="{{ include.height }}"
-  layout="responsive"
+  layout="{{ include.layout | default: 'responsive' }}"
   class="{{ include.classes }}"
   alt="{{ include.alt }}"
 ></amp-img>

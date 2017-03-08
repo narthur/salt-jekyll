@@ -1,3 +1,4 @@
-<div class="thumbnail" style="background-image:url('{{ site.url }}{{ site.baseurl }}/_assets/{{ include.name }}')">
+<div class="thumbnail">
+  {% include image.html name=include.name alt="SALT Ministries" layout="fill" %}
   {% if include.caption %}<span>{{ include.caption }}</span>{% endif %}
 </div>

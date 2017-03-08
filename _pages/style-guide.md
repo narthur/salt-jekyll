@@ -2,7 +2,7 @@
 layout: page
 title: Style Guide
 permalink: /style-guide/
-amp-plugins: [ accordion ]
+amp-plugins: [ accordion, image-lightbox ]
 ---
 
 {% assign atoms     = site.style_guide | where_exp:"component", "component.layer == 'atom'" %}

@@ -46,11 +46,12 @@ a {
 /* Thumbnail */
 
 .thumbnail {
+  height: 0;
   position: relative;
   text-align: left;
-  padding-bottom: 100%;
-  background-size: cover;
-  background-position: 50%;
+  padding-bottom: calc(100% - 1rem);
+  border: .5rem solid $background-color;
+  box-shadow: 0 0 2rem $background-color-dimlight;
   span {
     position: absolute;
     bottom: 0;
