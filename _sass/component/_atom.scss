@@ -60,5 +60,9 @@ a {
     color: $text-color-dimlight;
     background-color: rgba( $background-color-dimlight, .7 );
     padding: 5%;
+    line-height: 1.2rem;
+  }
+  img {
+    object-fit: cover;
   }
 }

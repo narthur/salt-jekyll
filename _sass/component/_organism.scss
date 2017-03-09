@@ -11,17 +11,34 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .site-title, .page-link {
-    color: $text-color-dimlight;
-  }
   .trigger {
+    height: 0;
+    overflow: hidden;
+  }
+  .thumbnail-nav {
     display: flex;
     width: 60rem;
     margin: 0 auto -2rem;
     max-width: 90%;
   }
-  .page-link {
+  .thumbnail-link {
     flex: 1 1 auto;
+    margin: .5rem;
+  }
+  .thumbnail-link .thumbnail {
+    top: 0;
+    transition: top 400ms;
+  }
+  .thumbnail-link:hover .thumbnail {
+    top: 1.5rem;
+  }
+  @media (max-width: $on-palm) {
+    .trigger {
+      height: auto;
+    }
+    .thumbnail-nav {
+      display: none;
+    }
   }
 }
 
@@ -30,4 +47,13 @@
 .site-footer {
   background-color: $background-color-dimlight;
   color: $text-color-dimlight;
+}
+
+/* Lightbox Gallery */
+
+.lightbox-gallery .gallery-item {
+  display: inline-block;
+  width: 25%;
+  height: 25%;
+  margin: 1rem;
 }
