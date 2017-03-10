@@ -51,9 +51,47 @@
 
 /* Lightbox Gallery */
 
-.lightbox-gallery .gallery-item {
-  display: inline-block;
-  width: 25%;
-  height: 25%;
-  margin: 1rem;
+.lightbox-gallery {
+  .gallery-item {
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    margin: 1rem;
+  }
+  .lightbox {
+    background-color: $background-color-dimlight;
+    height: 100%;
+  }
+  .lightbox img {
+    object-fit: contain;
+  }
+  .lightbox .control {
+    position: fixed;
+    background-color: $background-color;
+    box-shadow: 0 0 2rem $shadow-color;
+    cursor: pointer;
+  }
+  .lightbox .next, .lightbox .previous {
+    top: 50%;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 100%;
+    padding: 0;
+  }
+  .lightbox .next {
+    right: 2rem;
+  }
+  .lightbox .previous {
+    left: 2rem;
+  }
+  .lightbox .close {
+    right: 0;
+    padding: 1rem;
+  }
 }

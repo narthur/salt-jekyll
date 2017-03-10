@@ -7,25 +7,4 @@ images:
   - 'AB Pastor Heng.jpg'
 ---
 
-<div class="lightbox-gallery">
-
-{% for imageName in page.images %}
-<div class="gallery-item">
-  {% assign id = imageName|slugify %}
-  {% assign on = id|prepend:"tap:" %}
-  {% assign off = on|append:".close" %}
-  {% include component/atom/thumbnail.html name=imageName on=on role="button" %}
-
-  <amp-lightbox id="{{ id }}"
-    layout="nodisplay">
-    <div class="lightbox"
-      on="{{ off }}"
-      role="button"
-      tabindex="0">
-      <h1>Lightbox {{ id }}!</h1>
-    </div>
-  </amp-lightbox>
-</div>
-{% endfor %}
-
-</div>
+{% include component/organism/lightbox-gallery.html images=page.images %}

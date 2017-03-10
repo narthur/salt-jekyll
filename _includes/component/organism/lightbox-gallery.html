@@ -1,0 +1,36 @@
+<div class="lightbox-gallery">
+
+{% for imageName in include.images %}
+<div class="gallery-item">
+  {% assign id = imageName|slugify %}
+  {% assign on = id|prepend:"tap:" %}
+  {% assign off = on|append:".close" %}
+  {% include component/atom/thumbnail.html name=imageName on=on role="button" %}
+
+  <amp-lightbox id="{{ id }}"
+    layout="nodisplay">
+    <div class="lightbox"
+      on="{{ off }}"
+      role="button"
+      tabindex="0">
+      {% include image.html name=imageName layout="fill" %}
+
+      {% if forloop.first == false %}
+      {% assign previousIndex = forloop.index0|minus:1 %}
+      {% assign previousId = include.images[previousIndex]|slugify %}
+      <button class="control previous" on="{{ off }},{{ previousId }}"><</button>
+      {% endif %}
+
+      {% if forloop.last == false %}
+      {% assign nextIndex = forloop.index0|plus:1 %}
+      {% assign nextId = include.images[nextIndex]|slugify %}
+      <button class="control next" on="{{ off }},{{ nextId }}">></button>
+      {% endif %}
+
+      <button class="control close">Close</button>
+    </div>
+  </amp-lightbox>
+</div>
+{% endfor %}
+
+</div>

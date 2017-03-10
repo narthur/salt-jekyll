@@ -51,14 +51,14 @@ a {
   text-align: left;
   padding-bottom: calc(100% - 1rem);
   border: .5rem solid $background-color;
-  box-shadow: 0 0 2rem $background-color-dimlight;
+  box-shadow: 0 0 2rem $shadow-color;
   span {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     color: $text-color-dimlight;
-    background-color: rgba( $background-color-dimlight, .7 );
+    background-color: rgba( $background-color-dimlight, .7 );;
     padding: 5%;
     line-height: 1.2rem;
   }

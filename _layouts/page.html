@@ -32,6 +32,10 @@ layout: default
   <div class="post-content">
     {{ content }}
 
+    {% if page.images %}
+    {% include component/organism/lightbox-gallery.html images=page.images %}
+    {% endif %}
+
     <a href="{{site.github.repository_url}}/edit/master/{{page.path}}" target="_blank">Suggest a change</a>
   </div>
 

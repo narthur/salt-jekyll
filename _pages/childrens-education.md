@@ -5,6 +5,35 @@ permalink: /childrens-education/
 menus: [ main ]
 sort: 7
 thumbnail: thumbnails/Education 1.JPG
+amp-plugins: [ lightbox ]
+images:
+- 'childrens-education/ED Class 1.jpg'
+- 'childrens-education/ED Class 2.jpg'
+- 'childrens-education/ED Class 3.jpg'
+- 'childrens-education/ED Class 4.JPG'
+- 'childrens-education/ED Flag raising.jpg'
+- 'childrens-education/ED Kids 1.jpg'
+- 'childrens-education/ED Kids 2.jpg'
+- 'childrens-education/Ed Kids 3.jpg'
+- 'childrens-education/ED Kids 4.jpg'
+- 'childrens-education/ED Kids 5.jpg'
+- 'childrens-education/ED Kids 6.jpg'
+- 'childrens-education/ED Kids 7.jpg'
+- 'childrens-education/ED Kids 8.jpg'
+- 'childrens-education/ED Kids 9.jpg'
+- 'childrens-education/ED Library 1.JPG'
+- 'childrens-education/ED Library 2.JPG'
+- 'childrens-education/ED Outdoor activities.JPG'
+- 'childrens-education/ED School 1.jpg'
+- 'childrens-education/ED School 2.jpg'
+- 'childrens-education/ED School 3.jpg'
+- 'childrens-education/ED School 4.jpg'
+- 'childrens-education/ED School 5.jpg'
+- 'childrens-education/ED School 6.jpg'
+- 'childrens-education/ED Teacher prep.JPG'
+- 'childrens-education/ED Volunteer Kids 1.jpg'
+- 'childrens-education/ED Volunteer Kids 2.JPG'
+- 'childrens-education/ED Volunteer Kids 3.jpg'
 ---
 
 > “Educating for Eternity” ~ KAS Motto

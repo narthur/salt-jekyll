@@ -5,6 +5,22 @@ permalink: /hooftrek/
 menus: [ main ]
 sort: 10
 thumbnail: thumbnails/Hooftrek 2.jpg
+amp-plugins: [ lightbox ]
+images:
+- 'hooftrek/HT Hay.jpg'
+- 'hooftrek/HT Horse.JPG'
+- 'hooftrek/HT Horses Dogs.jpg'
+- 'hooftrek/HT Horses Truck 1.jpg'
+- 'hooftrek/HT Horses Truck 2.jpg'
+- 'hooftrek/HT Jaral 1.jpg'
+- 'hooftrek/HT Jaral Ely.jpg'
+- 'hooftrek/HT Jaral Kathleen 2.jpg'
+- 'hooftrek/HT Jaral Kathleen.jpg'
+- 'hooftrek/HT Jaral Shannon.jpg'
+- 'hooftrek/HT Jaral Sophall.jpg'
+- 'hooftrek/HT Khzak 1.jpg'
+- 'hooftrek/HT Khzak Ely Kathleen.jpg'
+- 'hooftrek/HT Khzak Kathleen Kids.jpg'
 ---
 
 Studies have shown the therapeutic benefits of the horse to the human. Horses
